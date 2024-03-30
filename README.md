@@ -1,3 +1,3 @@
-# DATA Base 2023.2
+# KTMT 2022.3
 
-Thực hành CSDL kì 2023.2 /　ＨＥＤＳＰＩ
+Thực hành KTMT kì 2023.2 /　ＨＥＤＳＰＩ
