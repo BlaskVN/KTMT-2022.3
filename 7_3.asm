@@ -1,6 +1,6 @@
 #Laboratory Exercise 7, Assignment 3
 .text
-init: 	li $s0,3
+     	li $s0,3
 		li $s1,1
 push: 	addi $sp,$sp,-8 	#adjust the stack pointer
 		sw $s0,4($sp) 		#push $s0 to stack
