@@ -49,9 +49,9 @@ init:	add $fp,$sp,$zero	# save address of origin sp
         sw  $ra, 28($sp)	# save $ra for main
         add $t0,$s0,$zero	# set Max = $s0
         add $t1,$s0,$zero	# set Min = $s0
-        li  $t8, 0			# set index of Max to 0
-        li  $t9, 0			# set index of Min to 0
-        li  $t2, 0			# set current index to 0
+        li  $t8, 0		# set index of Max to 0
+        li  $t9, 0		# set index of Min to 0
+        li  $t2, 0		# set current index to 0
 max_min:addi $sp,$sp,4
         lw  $t3,-4($sp)
         sub $t4, $sp, $fp	# check if meet $ra
